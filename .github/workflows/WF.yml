@@ -23,7 +23,6 @@ jobs:
       env:
         PAT: ${{ secrets.PAT }}
         REPO: ${{ secrets.REPO }}
-        SALT: ${{ secrets.SALT }}
       run: |
         sudo apt update
         sudo apt install ffmpeg
