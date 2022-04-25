@@ -13,7 +13,7 @@ jobs:
       with:
         python-version: 3.8
     - name: install python requirements
-      run: pip install requests m3u8
+      run: pip install -r requirements.txt
     - name: checkout repo content
       uses: actions/checkout@v2
       with:
